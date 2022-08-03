@@ -37,11 +37,6 @@ function About() {
   </div>
   {/* Page Header End */}
 
-
-
-
-
-
   <>
   {/* Feature Start */}
   <div className="container-xxl py-5">
@@ -91,7 +86,6 @@ function About() {
                 />
                 <div className="ms-4">
                   <h3>High Quality Products</h3>
-
                 </div>
               </div>
             </div>
@@ -240,13 +234,6 @@ function About() {
   </div>
   {/* Team End */}
 </>
-
-
-
-
-
-
-
 </>
 
 
