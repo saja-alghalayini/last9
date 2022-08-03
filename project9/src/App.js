@@ -5,6 +5,7 @@ import Home from './components/Home';
 import About from './static/About';
 import Contact from './static/Contact';
 import AllPro from './pro/AllPro';
+import './App.css';
 
 
 function App() {
