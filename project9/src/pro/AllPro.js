@@ -26,7 +26,7 @@ function AllPro(){
     className="container-fluid page-header py-5 mb-5 wow fadeIn"
     data-wow-delay="0.1s"
   >
-    <div className="container py-5">
+    <div className="container py-3">
       <h1 className="display-1 text-white animated slideInDown">Products</h1>
       <nav aria-label="breadcrumb animated slideInDown">
         <ol className="breadcrumb text-uppercase mb-0">

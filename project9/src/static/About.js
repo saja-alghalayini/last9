@@ -8,7 +8,7 @@ function About() {
 
   {/* Page Header Start */}
   <div
-    className="container-fluid page-header py-5 mb-5 wow fadeIn"
+    className="container-fluid page-header py-3 mb-5 wow fadeIn"
     data-wow-delay="0.1s"
   >
     <div className="container py-5">
@@ -16,15 +16,11 @@ function About() {
       <nav aria-label="breadcrumb animated slideInDown">
         <ol className="breadcrumb text-uppercase mb-0">
           <li className="breadcrumb-item">
-            <a className="text-white" href="#">
+            <a className="text-white" href="/">
               Home
             </a>
           </li>
-          <li className="breadcrumb-item">
-            <a className="text-white" href="#">
-              Pages
-            </a>
-          </li>
+
           <li
             className="breadcrumb-item text-primary active"
             aria-current="page"
@@ -36,11 +32,6 @@ function About() {
     </div>
   </div>
   {/* Page Header End */}
-
-
-
-
-
 
   <>
   {/* Feature Start */}
@@ -91,7 +82,6 @@ function About() {
                 />
                 <div className="ms-4">
                   <h3>High Quality Products</h3>
-
                 </div>
               </div>
             </div>
@@ -240,13 +230,6 @@ function About() {
   </div>
   {/* Team End */}
 </>
-
-
-
-
-
-
-
 </>
 
 

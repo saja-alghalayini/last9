@@ -6,12 +6,12 @@ function Footer() {
     <>
     <div
   className="container-fluid bg-dark text-body footer mt-5 pt-5 px-0 wow fadeIn"
-  data-wow-delay="0.1s"
+  data-wow-delay="0.5s"
 >
   <div className="container py-5">
     <div className="row g-5">
       <div className="col-lg-3 col-md-6">
-<img src="https://cdn.discordapp.com/attachments/1002099207177523221/1004446034447056906/Untitled-221.png" alt="" style={{width:'200px'}} />
+<img src="https://cdn.discordapp.com/attachments/1002099207177523221/1004446034447056906/Untitled-221.png" alt="" style={{width:'100px'}} />
         
       </div>
       <div className="col-lg-3 col-md-6">
@@ -65,19 +65,19 @@ function Footer() {
       </div>
       <div className="col-lg-3 col-md-6">
         <h3 className="text-light mb-4">Popular Links</h3>
-        <a className="btn btn-link" href="https://www.ebay.com/">
+        <a className="btn btn-link" href="https://www.ebay.com/"target={'_blank'}>
         eBay
         </a>
-        <a className="btn btn-link" href="https://www.sothebys.com/en/?locale=en">
+        <a className="btn btn-link" href="https://www.sothebys.com/en/?locale=en"target={'_blank'}>
         Sotheby's
         </a>
-        <a className="btn btn-link" href="https://www.bidspotter.com/en-us">
+        <a className="btn btn-link" href="https://www.bidspotter.com/en-us"target={'_blank'}>
         BidSpotter
         </a>
-        <a className="btn btn-link" href="https://gsaauctions.gov/gsaauctions/gsaauctions/">
+        <a className="btn btn-link" href="https://gsaauctions.gov/gsaauctions/gsaauctions/"target={'_blank'}>
         GSA Auctions
         </a>
-        <a className="btn btn-link" href="https://www.copart.com">
+        <a className="btn btn-link"  href="https://www.copart.com" target={'_blank'}>
         Copart
         </a>
       </div>

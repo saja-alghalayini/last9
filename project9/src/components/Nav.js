@@ -1,7 +1,11 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
+import {  useDispatch } from 'react-redux';
+import { logout } from "../action/index";
 
 function Nav() {
+  const dispatch = useDispatch();
+    let user_id = sessionStorage.getItem("user_info");
   return (
    
 
@@ -48,14 +52,24 @@ function Nav() {
   </div>
   <div className="collapse navbar-collapse"  id="navbarCollapse">
     <div className="navbar-nav ms-auto p-4 p-lg-0">
-    <a href="/" className="nav-item nav-link ">
+    {!user_id &&
+    <a href="/register" className="nav-item nav-link ">
         Register
-      </a>
-      <a href="/all-products" className="nav-item nav-link ">
+      </a>}
+      {!user_id &&
+      <a href="/login" className="nav-item nav-link ">
         Login
-      </a>
+      </a>}
+      {user_id &&
+      <a href="/" className="nav-item nav-link ">
+        My Account
+      </a>}
+      {user_id &&
+      <a href="/" className="nav-item nav-link "  onClick={() => dispatch(logout())}>
+        Logout
+      </a>}
       
-    </div><a href="" className="btn btn-primary py-3 px-5 d-none d-lg-block">
+    </div><a href="/add-product" className="btn btn-primary py-3 px-5 d-none d-lg-block">
       Join Us
     </a>
     

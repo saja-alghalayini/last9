@@ -28,22 +28,12 @@ function Home() {
     <>
 
     <Carousel fade>
+     
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://images.pexels.com/photos/827519/pexels-photo-827519.jpeg?auto=compress&cs=tinysrgb&w=1600"
-          alt="First slide"
-        />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="https://images-ext-2.discordapp.net/external/VHdJIQ8WqcS4h3aLFPJPyHloLFjnSpF4qCmaNPn7FKs/%3Fauto%3Dcompress%26cs%3Dtinysrgb%26w%3D1260%26h%3D750%26dpr%3D1/https/images.pexels.com/photos/859895/pexels-photo-859895.jpeg?width=895&height=597"
-          alt="Second slide"
+          src="img/1_gallery825_van-gogh.jpg"
+          alt="Second slide" height={500}
         />
 
         <Carousel.Caption>
@@ -54,8 +44,8 @@ function Home() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://images-ext-1.discordapp.net/external/qmCDbadDXl-DFp1_08pEm5hOS-LfT7r7YzvufmFQke4/%3Fauto%3Dcompress%26cs%3Dtinysrgb%26w%3D1260%26h%3D750%26dpr%3D1/https/images.pexels.com/photos/3014826/pexels-photo-3014826.jpeg?width=895&height=597"
-          alt="Third slide"
+          src="img/Wide-53-new1.jpg"
+          alt="Third slide" height={500}
         />
 
         <Carousel.Caption>
@@ -63,6 +53,17 @@ function Home() {
           <p>
             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
           </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="img/19.jpeg"
+          alt="First slide" height={500}
+        />
+        <Carousel.Caption>
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
