@@ -11,18 +11,24 @@ function Footer() {
   <div className="container py-5">
     <div className="row g-5">
       <div className="col-lg-3 col-md-6">
+<img src="https://cdn.discordapp.com/attachments/1002099207177523221/1004446034447056906/Untitled-221.png" alt="" style={{width:'200px'}} />
+        
+      </div>
+      <div className="col-lg-3 col-md-6">
         <h3 className="text-light mb-4">Address</h3>
         <p className="mb-2">
           <i className="fa fa-map-marker-alt text-primary me-3" />
-          123 Street, New York, USA
+          5th area, Aqaba, Jordan
         </p>
         <p className="mb-2">
           <i className="fa fa-phone-alt text-primary me-3" />
-          +012 345 67890
+          +962 777 777 777
         </p>
         <p className="mb-2">
           <i className="fa fa-envelope text-primary me-3" />
-          info@example.com
+          Epic_Antique@gmail.com
+
+
         </p>
         <div className="d-flex pt-2">
           <a className="btn btn-square btn-outline-body me-1" href="">
@@ -40,77 +46,56 @@ function Footer() {
         </div>
       </div>
       <div className="col-lg-3 col-md-6">
-        <h3 className="text-light mb-4">Services</h3>
-        <a className="btn btn-link" href="">
-          Architecture
-        </a>
-        <a className="btn btn-link" href="">
-          3D Animation
-        </a>
-        <a className="btn btn-link" href="">
-          House Planning
-        </a>
-        <a className="btn btn-link" href="">
-          Interior Design
-        </a>
-        <a className="btn btn-link" href="">
-          Construction
-        </a>
-      </div>
-      <div className="col-lg-3 col-md-6">
         <h3 className="text-light mb-4">Quick Links</h3>
-        <a className="btn btn-link" href="">
+        <a className="btn btn-link" href="/">
+          Home
+        </a>
+        <a className="btn btn-link" href="/allproduct">
+        All product
+        </a>
+        <a className="btn btn-link" href="/">
+         Add Auction
+        </a>
+        <a className="btn btn-link" href="about">
           About Us
         </a>
-        <a className="btn btn-link" href="">
-          Contact Us
-        </a>
-        <a className="btn btn-link" href="">
-          Our Services
-        </a>
-        <a className="btn btn-link" href="">
-          Terms &amp; Condition
-        </a>
-        <a className="btn btn-link" href="">
-          Support
+        <a className="btn btn-link" href="/contact">
+          Contact US
         </a>
       </div>
       <div className="col-lg-3 col-md-6">
-        <h3 className="text-light mb-4">Newsletter</h3>
-        <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-        <div className="position-relative mx-auto" style={{ maxWidth: 400 }}>
-          <input
-            className="form-control bg-transparent w-100 py-3 ps-4 pe-5"
-            type="text"
-            placeholder="Your email"
-          />
-          <button
-            type="button"
-            className="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
-          >
-            SignUp
-          </button>
-        </div>
+        <h3 className="text-light mb-4">Popular Links</h3>
+        <a className="btn btn-link" href="https://www.ebay.com/">
+        eBay
+        </a>
+        <a className="btn btn-link" href="https://www.sothebys.com/en/?locale=en">
+        Sotheby's
+        </a>
+        <a className="btn btn-link" href="https://www.bidspotter.com/en-us">
+        BidSpotter
+        </a>
+        <a className="btn btn-link" href="https://gsaauctions.gov/gsaauctions/gsaauctions/">
+        GSA Auctions
+        </a>
+        <a className="btn btn-link" href="https://www.copart.com">
+        Copart
+        </a>
       </div>
+     
+      
     </div>
   </div>
   <div className="container-fluid copyright">
     <div className="container">
       <div className="row">
         <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
-          © <a href="#">Your Site Name</a>, All Right Reserved.
+          © <a href="#"> Epic Antique</a>, All Right Reserved.
         </div>
         <div className="col-md-6 text-center text-md-end">
           {/*/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. *** /*/}
-          Designed By <a href="https://htmlcodex.com">HTML Codex</a>
-          <br /> Distributed By:{" "}
-          <a
-            className="border-bottom"
-            href="https://themewagon.com"
-            target="_blank"
-          >
-            ThemeWagon
-          </a>
+          Designed By :Epic Antique team
+          <br /> Distributed By: Epic Antique{" "}
+
         </div>
       </div>
     </div>
