@@ -69,7 +69,7 @@ function Nav() {
         Logout
       </a>}
       
-    </div><a href="" className="btn btn-primary py-3 px-5 d-none d-lg-block">
+    </div><a href="/add-product" className="btn btn-primary py-3 px-5 d-none d-lg-block">
       Join Us
     </a>
     
