@@ -22,10 +22,29 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
 }
 
 .App-link {
   color: #61dafb;
+}
+#img1{
+  background-image: url('https://images.pexels.com/photos/827519/pexels-photo-827519.jpeg?auto=compress&cs=tinysrgb&w=1600');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#img2{
+  background-image: url('https://images.pexels.com/photos/827519/pexels-photo-827519.jpeg?auto=compress&cs=tinysrgb&w=1600');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#img3{
+  background-image: url('https://images.pexels.com/photos/827519/pexels-photo-827519.jpeg?auto=compress&cs=tinysrgb&w=1600');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @keyframes App-logo-spin {
