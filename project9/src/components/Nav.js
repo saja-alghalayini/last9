@@ -24,10 +24,15 @@ function Nav() {
   >
     <span className="navbar-toggler-icon" />
   </button>
-  <div className="collapse navbar-collapse" id="navbarCollapse">
+
+
+  <div className="collapse navbar-collapse"  id="navbarCollapse">
     <div className="navbar-nav ms-auto p-4 p-lg-0">
-      <a href="/" className="nav-item nav-link active">
+      <a href="/" className="nav-item nav-link ">
         Home
+      </a>
+      <a href="/all-products" className="nav-item nav-link ">
+        Products
       </a>
       <a href="/about" className="nav-item nav-link">
         About
@@ -68,9 +73,23 @@ function Nav() {
         Contact
       </a>
     </div>
-    <a href="" className="btn btn-primary py-2 px-4 d-none d-lg-block">
+    {/* <a href="" className="btn btn-primary py-2 px-4 d-none d-lg-block">
       Appointment
+    </a> */}
+  </div>
+  <div className="collapse navbar-collapse"  id="navbarCollapse">
+    <div className="navbar-nav ms-auto p-4 p-lg-0">
+    <a href="/" className="nav-item nav-link ">
+        Register
+      </a>
+      <a href="/all-products" className="nav-item nav-link ">
+        Login
+      </a>
+      
+    </div><a href="" className="btn btn-primary py-3 px-5 d-none d-lg-block">
+      Join Us
     </a>
+    
   </div>
 </nav>
 </>
@@ -80,4 +99,4 @@ function Nav() {
   )
 }
 
-export default Nav
+export default Nav;
