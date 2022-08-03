@@ -56,9 +56,9 @@ function Login() {
                                             <form className="mx-1 mx-md-4">
 
                                                 <div className="d-flex flex-row align-items-center mb-4">
-                                                    <i className="fas fa-envelope fa-lg me-3 fa-fw" />
+                                                    <i className="fas fa-envelope fa-lg me-3 fa-fw text-dark" />
                                                     <div className="form-outline flex-fill mb-0">
-                                                        <label className="form-label" htmlFor="form3Example3c">
+                                                        <label className="form-label text-dark" htmlFor="form3Example3c">
                                                             Your Email
                                                         </label>
                                                         <input
@@ -71,9 +71,9 @@ function Login() {
                                                     </div>
                                                 </div>
                                                 <div className="d-flex flex-row align-items-center mb-4">
-                                                    <i className="fas fa-lock fa-lg me-3 fa-fw" />
+                                                    <i className="fas fa-lock fa-lg me-3 fa-fw text-dark" />
                                                     <div className="form-outline flex-fill mb-0">
-                                                        <label className="form-label" htmlFor="form3Example4c">
+                                                        <label className="form-label text-dark" htmlFor="form3Example4c">
                                                             Password
                                                         </label>
                                                         <input
@@ -90,6 +90,13 @@ function Login() {
 
                                                     <p className="form-check-label" htmlFor="form2Example3">
                                                         <span>{error.passError}</span>
+                                                    </p>
+                                                </div>
+                                                <div className="form-check d-flex justify-content-center ">
+
+                                                    <p className="form-check-label text-dark" htmlFor="form2Example3">
+                                                        Don't have an account ?{" "}
+                                                        <a href="/register"><strong>Register</strong></a>
                                                     </p>
                                                 </div>
                                                 <div className="d-flex justify-content-center mx-4 mb-3 mb-lg-4">

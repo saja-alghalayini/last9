@@ -17,7 +17,7 @@ function Signup() {
         <>
             {/* Page Header Start */}
             <div
-                className="container-fluid page-header py-5 mb- wow fadeIn"
+                className="container-fluid page-header py-3 wow fadeIn"
                 data-wow-delay="0.1s"
             >
                 <div className="container py-5">
@@ -54,9 +54,9 @@ function Signup() {
                                             </p>
                                             <form className="mx-1 mx-md-4" onSubmit={() => handleSubmit()}>
                                                 <div className="d-flex flex-row align-items-center mb-4">
-                                                    <i className="fas fa-user fa-lg me-3 fa-fw" />
+                                                    <i className="fas fa-user fa-lg me-3 fa-fw text-dark" />
                                                     <div className="form-outline flex-fill mb-0">
-                                                        <label className="form-label" htmlFor="form3Example1c">
+                                                        <label className="form-label text-dark" htmlFor="form3Example1c">
                                                             Your Name
                                                         </label>
                                                         <input
@@ -71,9 +71,9 @@ function Signup() {
                                                     </div>
                                                 </div>
                                                 <div className="d-flex flex-row align-items-center mb-4">
-                                                    <i className="fas fa-envelope fa-lg me-3 fa-fw" />
+                                                    <i className="fas fa-envelope fa-lg me-3 fa-fw text-dark" />
                                                     <div className="form-outline flex-fill mb-0">
-                                                        <label className="form-label" htmlFor="form3Example3c">
+                                                        <label className="form-label text-dark" htmlFor="form3Example3c">
                                                             Your Email
                                                         </label>
                                                         <input
@@ -88,9 +88,9 @@ function Signup() {
                                                     </div>
                                                 </div>
                                                 <div className="d-flex flex-row align-items-center mb-4">
-                                                    <i className="fas fa-lock fa-lg me-3 fa-fw" />
+                                                    <i className="fas fa-lock fa-lg me-3 fa-fw text-dark" />
                                                     <div className="form-outline flex-fill mb-0">
-                                                        <label className="form-label" htmlFor="form3Example4c">
+                                                        <label className="form-label text-dark" htmlFor="form3Example4c">
                                                             Password
                                                         </label>
                                                         <input
@@ -105,9 +105,9 @@ function Signup() {
                                                     </div>
                                                 </div>
                                                 <div className="d-flex flex-row align-items-center mb-4">
-                                                    <i className="fas fa-key fa-lg me-3 fa-fw" />
+                                                    <i className="fas fa-key fa-lg me-3 fa-fw text-dark" />
                                                     <div className="form-outline flex-fill mb-0">
-                                                        <label className="form-label" htmlFor="form3Example4cd">
+                                                        <label className="form-label text-dark" htmlFor="form3Example4cd">
                                                             Repeat your password
                                                         </label>
                                                         <input
@@ -122,9 +122,9 @@ function Signup() {
                                                 </div>
                                                 <div className="form-check d-flex justify-content-center ">
 
-                                                    <p className="form-check-label" htmlFor="form2Example3">
+                                                    <p className="form-check-label text-dark" htmlFor="form2Example3">
                                                         Already have an account ?{" "}
-                                                        <a href="/login">Login</a>
+                                                        <a href="/login"><strong>Login</strong></a>
                                                     </p>
                                                 </div>
                                                 <div className="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
