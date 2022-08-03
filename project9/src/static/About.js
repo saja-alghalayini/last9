@@ -119,73 +119,73 @@ function About() {
       >
         <h4 className="section-title">Team Members</h4>
         <h1 className="display-5 mb-4">
-          We Are Creative Architecture Team For Your Dream Home
+          We Are Creative Architecture Team, who build this website
         </h1>
       </div>
-      <div className="row g-0 team-items">
-        <div className="col-lg-4 col-md-3 wow fadeInUp" data-wow-delay="0.1s">
+      <div className="row g-0 team-items" >
+        <div className="col-lg-4 col-md-3 wow fadeInUp" data-wow-delay="0.1s" style={{height:'50%'}}>
           <div className="team-item position-relative">
             <div className="position-relative">
-              <img className="img-fluid" src="https://avatars.githubusercontent.com/u/100213753?v=4" alt="" />
+              <img className="img-fluid" src="https://avatars.githubusercontent.com/u/100237201?v=4" alt="Hadi" style={{height:'370px', width:'328px'}}/>
               <div className="team-social text-center">
-                <a className="btn btn-square" href="">
+                <a className="btn btn-square" href="https://www.linkedin.com/in/hadi-alsaden-174408232/" target="_blank">
                   <UilLinkedinAlt />
                 </a>
-                <a className="btn btn-square" href="">
+                <a className="btn btn-square" href="https://github.com/Hadi-AL-Saden" target="_blank">
                   <UilGithub />
                 </a>
-                <a className="btn btn-square" href="">
+                <a className="btn btn-square" href="https://www.linkedin.com/in/hadi-alsaden-174408232/" target="_blank">
                   < UilUserCircle />
                 </a>
               </div>
             </div>
             <div className="bg-light text-center p-4">
-              <h3 className="mt-2">Architect Name</h3>
-              <span className="text-primary">Designation</span>
+              <h3 className="mt-2">Hadi Alsaden</h3>
+              <span className="text-primary">Scrum Master</span>
             </div>
           </div>
         </div>
         <div className="col-lg-4 col-md-3 wow fadeInUp" data-wow-delay="0.3s">
           <div className="team-item position-relative">
             <div className="position-relative">
-              <img className="img-fluid" src="https://avatars.githubusercontent.com/u/100237201?v=4" alt="" />
+              <img className="img-fluid" src="https://avatars.githubusercontent.com/u/100213753?v=4" alt="Dua" style={{height:'370px', width:'328px'}}/>
               <div className="team-social text-center">
-                <a className="btn btn-square" href="">
+                <a className="btn btn-square" href="https://www.linkedin.com/in/du-a-alsafasfeh-70a9a7147/" target="_blank">
                   <UilLinkedinAlt />
                 </a>
-                <a className="btn btn-square" href="">
+                <a className="btn btn-square" href="https://github.com/Dua-Alsafasfeh" target="_blank">
                   <UilGithub />
                 </a>
-                <a className="btn btn-square" href="">
+                <a className="btn btn-square" href="https://www.linkedin.com/in/du-a-alsafasfeh-70a9a7147/" target="_blank">
                   < UilUserCircle />
                 </a>
               </div>
             </div>
             <div className="bg-light text-center p-4">
-              <h3 className="mt-2">Architect Name</h3>
-              <span className="text-primary">Designation</span>
+              <h3 className="mt-2">Dua Alsafasfeh</h3>
+              <span className="text-primary">Project Owner</span>
             </div>
           </div>
         </div>
         <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
           <div className="team-item position-relative">
             <div className="position-relative">
-              <img className="img-fluid" src="https://avatars.githubusercontent.com/u/100213822?v=4" alt="" />
+              <img className="img-fluid" src="https://avatars.githubusercontent.com/u/100213822?v=4" alt="Saja" style={{height:'370px', width:'328px'}}/>
               <div className="team-social text-center">
-                <a className="btn btn-square" href="">
+                <a className="btn btn-square" href="https://www.linkedin.com/in/saja-al-ghalayini/" target="_blank">
                   <UilLinkedinAlt />
                 </a>
-                <a className="btn btn-square" href="">
+                <a className="btn btn-square" href="https://github.com/saja-alghalayini" target="_blank">
                   <UilGithub />
                 </a>
-                <a className="btn btn-square" href="">
+                <a className="btn btn-square" href="https://www.linkedin.com/in/saja-al-ghalayini/" target="_blank">
                   < UilUserCircle />
                 </a>
               </div>
             </div>
             <div className="bg-light text-center p-4">
-              <h3 className="mt-2">Architect Name</h3>
-              <span className="text-primary">Designation</span>
+              <h3 className="mt-2">Saja Al Ghalayini</h3>
+              <span className="text-primary">Developer</span>
             </div>
           </div>
         </div></div>   
@@ -194,44 +194,44 @@ function About() {
         <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
           <div className="team-item position-relative">
             <div className="position-relative">
-              <img className="img-fluid" src="https://avatars.githubusercontent.com/u/100063786?v=4" alt="" />
+              <img className="img-fluid" src="https://avatars.githubusercontent.com/u/100063786?v=4" alt="Ro'a" style={{height:'370px', width:'328px'}}/>
               <div className="team-social text-center">
-                <a className="btn btn-square" href="">
+                <a className="btn btn-square" href="https://www.linkedin.com/in/roayaseen/" target="_blank">
                   <UilLinkedinAlt />
                 </a>
-                <a className="btn btn-square" href="">
+                <a className="btn btn-square" href="https://www.linkedin.com/in/roayaseen/" target="_blank">
                   <UilGithub />
                 </a>
-                <a className="btn btn-square" href="">
+                <a className="btn btn-square" href="https://www.linkedin.com/in/roayaseen/" target="_blank">
                   < UilUserCircle />
                 </a>
               </div>
             </div>
             <div className="bg-light text-center p-4">
-              <h3 className="mt-2">Architect Name</h3>
-              <span className="text-primary">Designation</span>
+              <h3 className="mt-2">Ro'a Yaseen</h3>
+              <span className="text-primary">Developer</span>
             </div>
           </div>
         </div>
         <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.9s">
           <div className="team-item position-relative">
             <div className="position-relative">
-              <img className="img-fluid" src="https://avatars.githubusercontent.com/u/100212077?v=4" alt="" />
+              <img className="img-fluid" src="https://avatars.githubusercontent.com/u/100212077?v=4" alt="Tamara" style={{height:'370px', width:'328px'}}/>
               <div className="team-social text-center">
-                <a className="btn btn-square" href="">
+                <a className="btn btn-square" href="https://www.linkedin.com/in/tamara-al-shabatat-060452123/" target="_blank">
                   <UilLinkedinAlt />
                 </a>
-                <a className="btn btn-square" href="">
+                <a className="btn btn-square" href="https://github.com/tamara126enad" target="_blank">
                   <UilGithub />
                 </a>
-                <a className="btn btn-square" href="">
+                <a className="btn btn-square" href="https://www.linkedin.com/in/tamara-al-shabatat-060452123/" target="_blank">
                   < UilUserCircle />
                 </a>
               </div>
             </div>
             <div className="bg-light text-center p-4">
-              <h3 className="mt-2">Architect Name</h3>
-              <span className="text-primary">Designation</span>
+              <h3 className="mt-2">Tamara Shbatat</h3>
+              <span className="text-primary">Developer</span>
             </div>
           </div>
         </div>
