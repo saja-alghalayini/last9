@@ -5,7 +5,7 @@ function Footer() {
   return (
     <>
     <div
-  className="container-fluid bg-dark text-body footer mt-5 pt-5 px-0 wow fadeIn"
+  className="container-fluid bg-dark text-body footer px-0 wow fadeIn"
   data-wow-delay="0.5s"
 >
   <div className="container py-5">
