@@ -2,6 +2,10 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
+import { UilCoins } from '@iconscout/react-unicons';
+import { UilCalendarAlt } from '@iconscout/react-unicons';
+import { UilFileInfoAlt } from '@iconscout/react-unicons';
+import { UilMoneyInsert } from '@iconscout/react-unicons'
 function Single1() {
     const params = useParams();
 
@@ -154,6 +158,32 @@ function Single1() {
     return (
        
 <>
+             {/* Page Header Start */}
+             <div
+                className="container-fluid page-header py-3  wow fadeIn"
+                data-wow-delay="0.1s"
+            >
+                <div className="container py-5">
+                    <h1 className="display-1 text-white animated slideInDown">Product</h1>
+                    <nav aria-label="breadcrumb animated slideInDown">
+                        <ol className="breadcrumb text-uppercase mb-0">
+                            <li className="breadcrumb-item">
+                                <a className="text-white" href="/">
+                                    Home
+                                </a>
+                            </li>
+                            <li
+                                className="breadcrumb-item text-primary active"
+                                aria-current="page"
+                            >
+                                product
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+            {/* Page Header End */}
+
             <div className="container mt-5 mb-5">
                 <div className="row d-flex justify-content-center">
                     <div class="alert alert-success" role="alert" id='heigh' style={{ display: 'none' }}>
@@ -177,22 +207,24 @@ function Single1() {
                                     <div className="product p-4">
                                        
                                         <div className="mt-4 mb-3">
-                                            <h5 className="text-uppercase">{inf.name}</h5>
+                                            <h2 className="text-uppercase">{inf.name}</h2>
                                             <div className="price d-flex flex-row align-items-center">
-                                                <span className="act-price">{inf.min_price}</span>
+                                            <UilCoins className="text-primary"/>
+                                                <span className="act-price text-dark">{inf.min_price} JD</span>
                                             </div>
-                                            <p>{auc} <code> [bids]</code></p>
-                                            <p> this auction will end in {inf.end_date} </p>
+                                            <p className='text-dark'><UilMoneyInsert className="text-primary"/>{auc} <code> [bids]</code></p>
+                                            
+                                            <p className='text-dark'><UilCalendarAlt className="text-primary"/> this auction will end in {inf.end_date} </p>
                                         </div>
-                                        <p className="about">
+                                        <p className="about text-dark"><UilFileInfoAlt className="text-primary"/>
                                             {inf.description}
                                         </p>
                                         <div class="alert alert-danger" role="alert" id='end' style={{ display: 'none' }}>
                                             This auction has ended!
                                         </div>
                                         <div className="cart mt-4 align-items-center" id='bid'>
-                                            <input className="btn  mr-2 px-4" placeholder='Bit Now' type={'number'} onChange={(e) => setNewP(e.target.value)} />
-                                            {user_id ? <button type="" className="btn btn-block " style={{ backgroundColor: '#FDBE33', }} onClick={handelPrice}>Bid Now</button> : <><button type="" className="btn btn-block " style={{ backgroundColor: '#FDBE33', }} disabled>Bid Now</button> <span style={{ color: 'red' }}>Login to Bid</span></>}
+                                            <input className="btn  mr-2 px-4" style={{border:'1px solid'}} placeholder='Bit Now' type={'number'} onChange={(e) => setNewP(e.target.value)} />
+                                            {user_id ? <button type="" className="btn btn-block " style={{ backgroundColor: '#FDBE33', }} onClick={handelPrice}>Bid Now</button> : <><button type="" className="btn btn-block " style={{ backgroundColor: '#FDBE33', }} disabled>Bid Now</button> <span style={{ color: 'red' }}> * Login to Bid</span></>}
                                             <br></br>
                                             <small style={{ color: 'red', display: 'none' }} id='er'>Your bid should be more than the price</small>
                                         </div>

@@ -518,7 +518,7 @@ h6,
     text-align: left;
     color: #777777;
     font-weight: normal;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     transition: .3s;
 }
 

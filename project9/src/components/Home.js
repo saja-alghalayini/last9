@@ -32,16 +32,14 @@ function Home() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="img/1_gallery825_van-gogh.jpg"
-          alt="Second slide" height={500}
+          src="https://images.pexels.com/photos/827519/pexels-photo-827519.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="Second slide" height={600}
         />
 
-        <Carousel.Caption style={{bottom: '13.25rem'}}>
-          <h1>Welcome to Epic Antiques</h1>
-          <p>We offer here unique antique pieces that are rare</p>
-          {/* <a href="/about" className="btn btn-primary py-3 px-5 d-none d-lg-block text-center" style={{width:'30%'}}>
-      Read More
-    </a> */}
+        <Carousel.Caption style={{background:'rgba(0, 0, 0, .5)'}}>
+          <h1 className='text-white'>Welcome to Epic Antiques</h1>
+          <h4 className='text-primary'>We offer here unique antique pieces that are rare</h4>
+          <a href="/add-product" class="btn btn-primary py-3 px-5 mr-5 animated slideInLeft">START SELLING</a>
     
   
         </Carousel.Caption>
@@ -49,33 +47,30 @@ function Home() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="img/Wide-53-new1.jpg"
-          alt="Third slide" height={500}
+          src="img/1812810.jpg"
+          alt="Third slide" height={600}
         />
 
-        <Carousel.Caption style={{bottom: '13.25rem'}}>
-          <h1>Welcome to Epic Antiques</h1>
-          <p>
+        <Carousel.Caption style={{background:'rgba(0, 0, 0, .5)'}}>
+          <h1 className='text-white'>Welcome to Epic Antiques</h1>
+          <h4 className='text-primary'>
           We offer here unique antique pieces that are rare
-          </p>
-          {/* <div className='ml-5'>          <a href="/about" className="btn btn-primary py-3 mr-5 d-none d-lg-block text-center w-25 " >
-      Read More
-    </a></div> */}
+          </h4>
+          <a href="/add-product" class="btn btn-primary py-3 px-5 mr-5 animated slideInLeft">START SELLING</a>
 
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="img/19.jpeg"
-          alt="First slide" height={500}
+          src="img/5432421.jpg"
+          alt="First slide" height={600}
         />
-        <Carousel.Caption style={{bottom: '13.25rem'}}>
-          <h1>Welcome to Epic Antiques </h1>
-          <p>We offer here unique antique pieces that are rare</p>
-          {/* <a href="/about" className="btn btn-primary py-3 px-5 d-none d-lg-block text-center">
-      Read More
-    </a> */}
+        <Carousel.Caption style={{background:'rgba(0, 0, 0, .5)'}}>
+          <h1 className='text-white'>Welcome to Epic Antiques </h1>
+          <h4 className='text-primary'>We offer here unique antique pieces that are rare</h4>
+      <a href="/add-product" class="btn btn-primary py-3 px-5 mr-5 animated slideInLeft">START SELLING</a>
+    
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
@@ -89,7 +84,7 @@ function Home() {
         <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
           <div className="fact-item text-center bg-light h-100 p-5 pt-0">
             <div className="fact-icon">
-              <img src="img/icons/icon-2.png" alt="Icon" />
+              <img src="img/icons/icon-3.png" alt="Icon" />
             </div>
             <h3 className="mb-3">High Security assurance</h3>
             <p className="mb-0">
@@ -100,7 +95,7 @@ function Home() {
         <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
           <div className="fact-item text-center bg-light h-100 p-5 pt-0">
             <div className="fact-icon">
-              <img src="img/icons/icon-3.png" alt="Icon" />
+              <img src="img/icons/icon-2.png" alt="Icon" />
             </div>
             <h3 className="mb-3">Quick Bid Procedure</h3>
             <p className="mb-0">
@@ -133,7 +128,7 @@ function Home() {
         data-wow-delay="0.1s"
         style={{ maxWidth: 600 }}
       >
-        <h4 className="section-title">All Product</h4>
+        <h4 className="section-title">All Products</h4>
         <h1 className="display-5 mb-4">
         Show The Latest Products for Auctions &amp; Join Us
         </h1>

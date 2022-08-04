@@ -12765,7 +12765,7 @@ h6,
 }
 
 .page-header {
-  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://image.shutterstock.com/image-photo/gavel-block-on-wooden-desk-260nw-1742766599.jpg) center center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://img.pikbest.com/backgrounds/20190605/auction-business-background-poster_1894691.jpg!bw700) center center no-repeat;
   background-size: cover;
 }
 
@@ -13049,9 +13049,9 @@ h6,
   margin-bottom: 5px;
   padding: 0;
   text-align: left;
-  color: #777777;
+  color: #AAAAAA;
   font-weight: normal;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   transition: .3s;
 }
 
@@ -13086,4 +13086,7 @@ h6,
 
 .footer .copyright a:hover {
   color: var(--primary);
+}
+.err{
+  color: var(--bs-red);
 }
