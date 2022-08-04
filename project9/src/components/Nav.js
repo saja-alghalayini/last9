@@ -48,10 +48,10 @@ function Nav() {
   </div>
   <div className="collapse navbar-collapse"  id="navbarCollapse">
     <div className="navbar-nav ms-auto p-4 p-lg-0">
-    <a href="/" className="nav-item nav-link ">
+    <a href="/register" className="nav-item nav-link ">
         Register
       </a>
-      <a href="/all-products" className="nav-item nav-link ">
+      <a href="/login" className="nav-item nav-link ">
         Login
       </a>
       
