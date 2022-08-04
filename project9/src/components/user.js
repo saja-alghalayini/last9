@@ -65,7 +65,7 @@ document.getElementById('uu').style.display='none';
 
 const Update = () => {
              // http://localhost/redux-project9/API/updateUser.php?id=1&firstname=${firstname}&lastname=${lastname}&email=${email}&phone=${password}&password=${phone}
-    axios.get(`http://localhost/last9/api/API/updateUser%20-%20Copy.php?id=${user_id}&name=${name}&email=${email}&phone=${phone}&address=${address}`)
+    axios.get(`http://localhost/last9/api/API/updateUser_-_Copy.php?id=${user_id}&name=${name}&email=${email}&phone=${phone}&address=${address}`)
         .then((data) => {
             console.log("success!");
             setSubmit(!isSubmit)
@@ -220,7 +220,7 @@ console.log( probuy ,'nooo');
     </tr>
   </thead>
   <tbody>
-  { proown=='' ? <h2>No products to show </h2> :proown.map(u =>
+  { probuy=='' ? <h2>No products to show </h2> :probuy.map(u =>
     <tr>
       <th scope="row">#</th>
       <td>{u.name}</td>
@@ -275,7 +275,7 @@ console.log( probuy ,'nooo');
     </tr>
   </thead>
   <tbody>
-    { probuy =='' ? <h2>No products to show </h2> : probuy.map(u =>
+    { proown =='' ? <h2>No products to show </h2> : proown.map(u =>
     <tr>
       <th scope="row">#</th>
       <td>{u.name}</td>

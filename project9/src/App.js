@@ -10,13 +10,13 @@ import Uploader from './components/Uploader';
 import Signup from './register/reg';
 import Login from './register/login';
 
-// import Single from './pro/Singlepro';
-import Single from './pro/Single';
+import Single from './pro/Singlepro';
+// import Single from './pro/Single';
 
 import Userinfo from './components/user';
 
 
-
+import './App.css';
 
 function App() {
   return (
@@ -35,8 +35,9 @@ function App() {
 <Route path='/login' element={<Login/>}/>
 <Route path='/user-info' element={<Userinfo/>}/>
 {/* <Route path='/addproduct' element={<Upload/>}/>   */}
-{/* <Route path="/single/:id" element={<Single/>}/> */}
-<Route path="/one" element={<Single/>}/>
+<Route path="/single/:id" element={<Single/>}/>
+{/* <Route path="/one/:id" element={<Single/>}/> */}
+
 </Routes>
 
 </BrowserRouter>

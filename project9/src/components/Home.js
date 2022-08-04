@@ -36,9 +36,14 @@ function Home() {
           alt="Second slide" height={500}
         />
 
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <Carousel.Caption style={{bottom: '13.25rem'}}>
+          <h1>Welcome to Epic Antiques</h1>
+          <p>We offer here unique antique pieces that are rare</p>
+          <a href="/about" className="btn btn-primary py-3 px-5 d-none d-lg-block text-center" style={{width:'30%'}}>
+      Read More
+    </a>
+    
+  
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -48,11 +53,14 @@ function Home() {
           alt="Third slide" height={500}
         />
 
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
+        <Carousel.Caption style={{bottom: '13.25rem'}}>
+          <h1>Welcome to Epic Antiques</h1>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          We offer here unique antique pieces that are rare
           </p>
+          <a href="/about" className="btn btn-primary py-3 px-5 d-none d-lg-block text-center">
+      Read More
+    </a>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -61,9 +69,12 @@ function Home() {
           src="img/19.jpeg"
           alt="First slide" height={500}
         />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <Carousel.Caption style={{bottom: '13.25rem'}}>
+          <h1>Welcome to Epic Antiques </h1>
+          <p>We offer here unique antique pieces that are rare</p>
+          <a href="/about" className="btn btn-primary py-3 px-5 d-none d-lg-block text-center">
+      Read More
+    </a>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
