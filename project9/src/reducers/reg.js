@@ -49,7 +49,7 @@ const registerReducer=(state={usernameError:'',emailError:'',passError:'',confir
 
                 axios.post('http://localhost/last9/project9/backend/reg.php?username='+state.username+'&email='+state.email+'&password='+state.password)
                 .then(()=>{
-                    console.log('dyar');
+                    // console.log('dyar');
                     window.location="/login";
                 })
                

@@ -145,6 +145,7 @@ function Single1() {
 
         if (parseInt(inf.min_price) < parseInt(submit)) {
             document.getElementById('er').style.display = "none";
+            window.location="/single";  
         }
         else {
             document.getElementById('er').style.display = "block";
