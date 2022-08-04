@@ -232,7 +232,7 @@ h6,
 }
 
 .page-header {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://image.shutterstock.com/image-photo/gavel-block-on-wooden-desk-260nw-1742766599.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -372,7 +372,9 @@ h6,
 
 /*** Team ***/
 .team-items {
-    margin: -.75rem;
+    margin: .75rem;
+    width: 82%;
+    margin-left: 10%;
 }
 
 .team-item {
@@ -391,6 +393,7 @@ h6,
     z-index: -1;
 }
 
+
 .team-item:hover::after {
     height: 100%;
     background: var(--primary);
@@ -400,7 +403,7 @@ h6,
     position: absolute;
     width: 100%;
     bottom: -20px;
-    left: 0;
+    left: 0px;   
 }
 
 .team-item .team-social .btn {
