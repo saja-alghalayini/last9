@@ -2,7 +2,7 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
-function Single() {
+function Single1() {
     const params = useParams();
 
 
@@ -514,4 +514,4 @@ function Single() {
         </>
     );
 }
-export default Single;
+export default Single1;

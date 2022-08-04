@@ -9,7 +9,8 @@ import Uploader from './components/Uploader';
 
 import Signup from './register/reg';
 import Login from './register/login';
-import Single from './pro/Singlepro';
+// import Single from './pro/Singlepro';
+import Single from './pro/Single';
 
 
 
@@ -29,7 +30,8 @@ function App() {
 <Route path='/register' element={<Signup/>}/>
 <Route path='/login' element={<Login/>}/>
 {/* <Route path='/addproduct' element={<Upload/>}/>   */}
-<Route path="/single/:id" element={<Single/>}/>
+{/* <Route path="/single/:id" element={<Single/>}/> */}
+<Route path="/one" element={<Single/>}/>
 </Routes>
 
 </BrowserRouter>
