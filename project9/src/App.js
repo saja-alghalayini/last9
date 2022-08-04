@@ -5,6 +5,7 @@ import Home from './components/Home';
 import About from './static/About';
 import Contact from './static/Contact';
 import AllPro from './pro/AllPro';
+import Uploader from './components/Uploader';
 
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
  <Route path='/about' element={<About/>}/>
 <Route path='/contact' element={<Contact/>}/>
 <Route path='/all-Products' element={<AllPro/>}/>
-{/* <Route path='/addproduct' element={<Upload/>}/>   */}
+<Route path='/add-product' element={<Uploader/>}/>  
 </Routes>
 
 </BrowserRouter>

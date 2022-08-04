@@ -17,7 +17,7 @@ import emailjs from '@emailjs/browser';
       
       
           setdisplay('block')
-          emailjs.sendForm('service_2kxnspw', 'template_ltwfrme', form.current, 'CFMBaYFxV7x5t5K13')
+          emailjs.sendForm('service_i7axj16','template_8q2vw6w',form.current,'jWSdz_DM5bIoL2AVI')
             .then((result) => {
       
       
@@ -46,15 +46,11 @@ import emailjs from '@emailjs/browser';
       <nav aria-label="breadcrumb animated slideInDown">
         <ol className="breadcrumb text-uppercase mb-0">
           <li className="breadcrumb-item">
-            <a className="text-white" href="#">
+            <a className="text-white" href="/">
               Home
             </a>
           </li>
-          <li className="breadcrumb-item">
-            <a className="text-white" href="#">
-              Pages
-            </a>
-          </li>
+
           <li
             className="breadcrumb-item text-primary active"
             aria-current="page"
@@ -123,22 +119,17 @@ import emailjs from '@emailjs/browser';
                 <p className="mb-2">Mail Us Now</p>
                 <h3 className="mb-0">Epic_Antique@gmail.com
 </h3>
-              </div>
+              </div> 
             </div>
           </div>
         </div>
         <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-          <p className="mb-4">
-            The contact form is currently inactive. Get a functional and working
-            contact form with Ajax &amp; PHP in a few minutes. Just copy and
-            paste the files, add a little code and you're done.{" "}
-            <a href="https://htmlcodex.com/contact-form">Download Now</a>.
-          </p>
 
-        <p className="alert alert-success" severity="success" style={{ display: display }}>
+
+        <alert className="alert alert-success" severity="success" style={{ display: display }}>
                         <alertTitle>Success</alertTitle>
                         Your Message was sent. Thank you for contacting us, we'll reply as soon as possible
-                      </p>
+                      </alert>
 
 
                       {/* <div className='text-center message' style={{ display:isSubmit?"none":"block"}}>
