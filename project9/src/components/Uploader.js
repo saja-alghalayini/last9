@@ -2,7 +2,6 @@ import React, { useState, useRef } from 'react';
 
 
 
-
 function Uploader() {
     let owner_id = sessionStorage.getItem("user_info");
 
@@ -81,16 +80,40 @@ function Uploader() {
     }
     return (
         <>
-            <div className='container-fluid'>
+      
+                     {/* Page Header Start */}
+  <div
+    className="container-fluid page-header py-3 mb-5 wow fadeIn"
+    data-wow-delay="0.1s"
+  >
+    <div className="container py-5">
+      <h1 className="display-1 text-white animated slideInDown">Add Product</h1>
+      <nav aria-label="breadcrumb animated slideInDown">
+        <ol className="breadcrumb text-uppercase mb-0">
+          <li className="breadcrumb-item">
+            <a className="text-white" href="/">
+              Home
+            </a>
+          </li>
+
+          <li
+            className="breadcrumb-item text-primary active"
+            aria-current="page"
+          >
+            Add Product
+          </li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+  {/* Page Header End */}
                 <div className='row'>
-                </div>
-                <div className='row'>
-                    <section className="vh-100 w-100" style={{ backgroundColor: "#F3F6FF" }}>
+                    <section className="vh-100 w-100" >
                         <div className="container h-100">
                             <div className="row d-flex justify-content-center align-items-center h-100" >
-                                <div className="col-lg-12 col-xl-11" style={{ backgroundColor: "#dfb163" }} >
+                                <div className="col-lg-12 col-xl-11" style={{  }} >
                                     <div className="card text-black" style={{ borderRadius: 25 }}>
-                                        <div className="card-body p-md-5">
+                                        <div className="card-body p-md-5" style={{boxShadow:'5px 17px 43px black'}}>
                                             <div className="row justify-content-center">
                                                 <div className="col-md-9 col-lg-6 col-xl-7 d-flex align-items-center justify-content-end order-0 order-lg-2 float-left">
                                                     <img
@@ -122,16 +145,7 @@ function Uploader() {
 
                                                             </div>
                                                         </div>
-                                                        <div className="d-flex flex-row align-items-center mb-4">
-                                                            {/* <i className="fas fa-envelope fa-lg me-3 fa-fw" style={{ color: '#252531' }} /> */}
-                                                            <div className="form-outline flex-fill mb-0">
-                                                                <label className="form-label" htmlFor="form3Example3c" style={{ color: '#252531' }}>
-                                                                Description
-                                                                </label>
-                                                                <textarea name="" id="des" cols="10" className='form-control' rows="1" onChange={(e) => setdesc(e.target.value)}></textarea>
 
-                                                            </div>
-                                                        </div>
                                                         <div className="d-flex flex-row align-items-center mb-4">
                                                             {/* <i className="fas fa-lock fa-lg me-3 fa-fw" style={{ color: '#252531' }} /> */}
                                                             <div className="form-outline flex-fill mb-0">
@@ -146,6 +160,16 @@ function Uploader() {
                                                                     onChange={(e) => setprice(e.target.value)}
                                                                     required
                                                                 />
+
+                                                            </div>
+                                                        </div>
+                                                        <div className="d-flex flex-row align-items-center mb-4">
+                                                            {/* <i className="fas fa-envelope fa-lg me-3 fa-fw" style={{ color: '#252531' }} /> */}
+                                                            <div className="form-outline flex-fill mb-0">
+                                                                <label className="form-label" htmlFor="form3Example3c" style={{ color: '#252531' }}>
+                                                                Description
+                                                                </label>
+                                                                <textarea name="" id="des" cols="10" rows="4"  className='form-control'  onChange={(e) => setdesc(e.target.value)}></textarea>
 
                                                             </div>
                                                         </div>
@@ -207,9 +231,7 @@ function Uploader() {
         );
     })}; 
     </div> */}
-                <div className='row'>
-                </div>
-            </div>
+
         </>
     );
 }

@@ -9,8 +9,12 @@ import Uploader from './components/Uploader';
 
 import Signup from './register/reg';
 import Login from './register/login';
+
 // import Single from './pro/Singlepro';
 import Single from './pro/Single';
+
+import Userinfo from './components/user';
+
 
 
 
@@ -29,6 +33,7 @@ function App() {
 <Route path='/add-product' element={<Uploader/>}/>  
 <Route path='/register' element={<Signup/>}/>
 <Route path='/login' element={<Login/>}/>
+<Route path='/user-info' element={<Userinfo/>}/>
 {/* <Route path='/addproduct' element={<Upload/>}/>   */}
 {/* <Route path="/single/:id" element={<Single/>}/> */}
 <Route path="/one" element={<Single/>}/>
