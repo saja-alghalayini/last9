@@ -9,6 +9,7 @@ import Uploader from './components/Uploader';
 
 import Signup from './register/reg';
 import Login from './register/login';
+import Userinfo from './components/user';
 
 
 
@@ -27,6 +28,7 @@ function App() {
 <Route path='/add-product' element={<Uploader/>}/>  
 <Route path='/register' element={<Signup/>}/>
 <Route path='/login' element={<Login/>}/>
+<Route path='/user-info' element={<Userinfo/>}/>
 {/* <Route path='/addproduct' element={<Upload/>}/>   */}
 </Routes>
 
