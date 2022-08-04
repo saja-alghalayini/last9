@@ -4478,7 +4478,7 @@
 
  .navbar-collapse {
      flex-basis: 100%;
-     flex-grow: 1;
+     flex-grow: 0.5;
      align-items: center
  }
 

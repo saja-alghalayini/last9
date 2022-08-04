@@ -112,15 +112,6 @@ function Home() {
   {/* Facts End */}
 </>
 
-
-
-
-
-
-
-
-
-
   {/* product Start */}
   <div className="container-xxl py-5">
     <div className="container">
@@ -147,8 +138,8 @@ function Home() {
               {u.description}
               </p>
               <a className="btn" href="">
-              <a href={'/single/' + u.id} className="btn mr-2">
-                <i className="fa fa-plus text-primary me-3" />Join Auction</a>
+              <a href={'/single/' + u.id} className="btn p-2 mr-2">
+                <i className="fa fa-plus text-primary " />Join Auction</a>
                
               </a>
             </div>
