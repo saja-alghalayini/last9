@@ -14,7 +14,7 @@ function Home() {
     useEffect(() => {
       
       
-      axios.get(`http://localhost/last9/project9/php/readPro.php`)
+      axios.get(`http://localhost/last9/project9/php/readProlimit.php`)
       .then((response) => {
           setAPIData(response.data);
           console.log(response.data,"res.data")
