@@ -61,7 +61,7 @@ function Nav() {
         Login
       </a>}
       {user_id &&
-      <a href="/" className="nav-item nav-link ">
+      <a href="/user-info" className="nav-item nav-link ">
         My Account
       </a>}
       {user_id &&
