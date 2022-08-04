@@ -9,7 +9,7 @@ function Signup() {
 
     const handleSubmit = () => {
         dispatch(signup());
-
+        window.location="/login";
     }
 
 

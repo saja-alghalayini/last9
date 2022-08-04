@@ -11,7 +11,11 @@ function Footer() {
   <div className="container py-5">
     <div className="row g-5">
       <div className="col-lg-3 col-md-6">
-<img src="https://cdn.discordapp.com/attachments/1002099207177523221/1004446034447056906/Untitled-221.png" alt="" style={{width:'100px'}} />
+      <a href="index.html" className="navbar-brand ms-4 ms-lg-0">
+    <h1 className="text-primary m-0">
+      <img className="" src="https://cdn.discordapp.com/attachments/965674870987980901/1004437471855136809/Untitled-221.png" style={{width:'80px'}} alt="Icon" />
+    Epic Antique    </h1>
+  </a>
         
       </div>
       <div className="col-lg-3 col-md-6">

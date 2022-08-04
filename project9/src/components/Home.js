@@ -39,9 +39,9 @@ function Home() {
         <Carousel.Caption style={{bottom: '13.25rem'}}>
           <h1>Welcome to Epic Antiques</h1>
           <p>We offer here unique antique pieces that are rare</p>
-          <a href="/about" className="btn btn-primary py-3 px-5 d-none d-lg-block text-center" style={{width:'30%'}}>
+          {/* <a href="/about" className="btn btn-primary py-3 px-5 d-none d-lg-block text-center" style={{width:'30%'}}>
       Read More
-    </a>
+    </a> */}
     
   
         </Carousel.Caption>
@@ -58,9 +58,10 @@ function Home() {
           <p>
           We offer here unique antique pieces that are rare
           </p>
-          <a href="/about" className="btn btn-primary py-3 px-5 d-none d-lg-block text-center">
+          {/* <div className='ml-5'>          <a href="/about" className="btn btn-primary py-3 mr-5 d-none d-lg-block text-center w-25 " >
       Read More
-    </a>
+    </a></div> */}
+
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -72,9 +73,9 @@ function Home() {
         <Carousel.Caption style={{bottom: '13.25rem'}}>
           <h1>Welcome to Epic Antiques </h1>
           <p>We offer here unique antique pieces that are rare</p>
-          <a href="/about" className="btn btn-primary py-3 px-5 d-none d-lg-block text-center">
+          {/* <a href="/about" className="btn btn-primary py-3 px-5 d-none d-lg-block text-center">
       Read More
-    </a>
+    </a> */}
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
