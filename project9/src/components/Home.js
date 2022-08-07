@@ -77,6 +77,56 @@ function Home() {
 
 {/* ==================================================================================== */}
 <>
+  {/* About Start */}
+  <div className="container-xxl py-5">
+    <div className="container">
+      <div className="row g-5">
+        <div className="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+          <div className="about-img">
+            <img className="img-fluid" src="img/home1.jpg" alt="" />
+            <img className="img-fluid" src="img/home2.jpg" alt="" />
+          </div>
+        </div>
+        <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+          <h4 className="section-title">About Us</h4>
+          <h1 className="display-5 mb-4">
+          Epic online auction platform Epic online auction platform 
+          </h1>
+          <p>
+          We offer here unique antique pieces that are rare and closely related to riches and traditions
+Every piece here has a story and history, and our experts will introduce it to you
+          </p>
+          <p className="mb-4">
+            Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet
+            est diam rebum amet diam ipsum. Clita clita labore, dolor duo nonumy
+            clita sit at, sed sit sanctus dolor eos.
+          </p>
+          <div className="d-flex align-items-center mb-5">
+            <div
+              className="d-flex flex-shrink-0 align-items-center justify-content-center border border-5 border-primary"
+              style={{ width: 120, height: 120 }}
+            >
+              <h3 className="display-1 mb-n2" data-toggle="counter-up">
+              Epic
+              </h3>
+            </div>
+            <div className="ps-4">
+              <h3>Security </h3>
+              <h3>Quick</h3>
+              <h3 className="mb-0">Quality </h3>
+            </div>
+          </div>
+          <a className="btn btn-primary py-3 px-5" href="/about">
+            Read More
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  {/* About End */}
+</>
+
+<>
   {/* Facts Start */}
   <div className="container-xxl py-5">
     <div className="container pt-5">
