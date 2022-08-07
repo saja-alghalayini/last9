@@ -89,8 +89,8 @@ function About() {
         </div>
         <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
           <div className="feature-img">
-            <img className="img-fluid" src="https://www.aljazeera.net/wp-content/uploads/2020/10/%D8%B5%D9%88%D8%B1%D8%A9-%D9%85%D9%8A%D8%AF%D8%A7%D9%86-2020-10-13T040218.348.png?w=770&resize=770%2C513" alt="" />
-            <img className="img-fluid" src="https://images.pexels.com/photos/6077422/pexels-photo-6077422.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+            <img className="img-fluid" src="https://images.pexels.com/photos/9307812/pexels-photo-9307812.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+            <img className="img-fluid" src="https://images.pexels.com/photos/6077189/pexels-photo-6077189.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
           </div>
         </div>
       </div>
@@ -109,7 +109,7 @@ function About() {
       >
         <h4 className="section-title">Team Members</h4>
         <h1 className="display-5 mb-4">
-          We Are Creative Architecture Team, who build this website
+          We Are Creative Epic Antiques Team, who build this website
         </h1>
       </div>
       <div className="row g-0 team-items" >
