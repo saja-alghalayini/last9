@@ -181,7 +181,8 @@ function Single1() {
                                                 <span className="act-price">{inf.min_price}</span>
                                             </div>
                                             <p>{auc} <code> [bids]</code></p>
-                                            <p> this auction will end in {inf.end_date} </p>
+                                            <p style={{color:'red',fontSize: 'large',
+    fontWeight: 'bold'}}> this auction will end in {inf.end_date} </p>
                                         </div>
                                         <p className="about">
                                             {inf.description}
