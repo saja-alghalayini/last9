@@ -14,10 +14,10 @@ function Nav() {
   className="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn"
   data-wow-delay="0.1s"
 >
-  <a href="index.html" className="navbar-brand ms-4 ms-lg-0">
+  <a href="/" className="navbar-brand ms-4 ms-lg-0">
     <h1 className="text-primary m-0">
       <img className="" src="https://cdn.discordapp.com/attachments/965674870987980901/1004437471855136809/Untitled-221.png" style={{width:'80px'}} alt="Icon" />
-    Epic Antique    </h1>
+    Epic Antiques    </h1>
   </a>
   <button
     type="button"
@@ -69,8 +69,8 @@ function Nav() {
         Logout
       </a>}
       
-    </div><a href="/add-product" className="btn btn-primary py-3 px-5 d-none d-lg-block">
-      Join Us
+    </div><a href="/add-product" className="btn btn-primary nav-item py-3 px-5 d-none d-lg-block">
+    START SELLING
     </a>
     
   </div>
