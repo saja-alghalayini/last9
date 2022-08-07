@@ -212,9 +212,15 @@ function Single1() {
                                             <UilCoins className="text-primary"/>
                                                 <span className="act-price text-dark">{inf.min_price} JD</span>
                                             </div>
+
+                                            <p>{auc} <code> [bids]</code></p>
+                                            <p style={{color:'red',fontSize: 'large',
+    fontWeight: 'bold'}}> this auction will end in {inf.end_date} </p>
+
                                             <p className='text-dark'><UilMoneyInsert className="text-primary"/>{auc} <code> [bids]</code></p>
                                             
                                             <p className='text-dark'><UilCalendarAlt className="text-primary"/> this auction will end in {inf.end_date} </p>
+
                                         </div>
                                         <p className="about text-dark"><UilFileInfoAlt className="text-primary"/>
                                             {inf.description}
