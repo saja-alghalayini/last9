@@ -90,7 +90,7 @@ function Home() {
         <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
           <h4 className="section-title">About Us</h4>
           <h1 className="display-5 mb-4">
-          Epic online auction platform Epic online auction platform 
+          Epic online auction platform 
           </h1>
           <p>
           We offer here unique antique pieces that are rare and closely related to riches and traditions
@@ -106,9 +106,9 @@ Every piece here has a story and history, and our experts will introduce it to y
               className="d-flex flex-shrink-0 align-items-center justify-content-center border border-5 border-primary"
               style={{ width: 120, height: 120 }}
             >
-              <h3 className="display-1 mb-n2" data-toggle="counter-up">
+              <h6 className="display-1 mb-n2" data-toggle="counter-up">
               Epic
-              </h3>
+              </h6>
             </div>
             <div className="ps-4">
               <h3>Security </h3>
