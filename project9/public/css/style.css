@@ -232,7 +232,7 @@ h6,
 }
 
 .page-header {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://image.shutterstock.com/image-photo/gavel-block-on-wooden-desk-260nw-1742766599.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://images.pexels.com/photos/1764227/pexels-photo-1764227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) center center no-repeat;
     background-size: cover;
 }
 
@@ -518,7 +518,7 @@ h6,
     text-align: left;
     color: #777777;
     font-weight: normal;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     transition: .3s;
 }
 
@@ -553,4 +553,5 @@ h6,
 
 .footer .copyright a:hover {
     color: var(--primary);
+    
 }
